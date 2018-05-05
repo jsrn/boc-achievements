@@ -1,0 +1,51 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background: #222;
+    color: #999;
+}
+
+.achievement-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.achievement-list img {
+    max-width: 100%;
+}
+
+.title,
+.description,
+.quantities {
+    display: block;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.description {
+    margin: 5px 0;
+}
+
+.quantities {
+    color: #666666;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.bronze {
+    color: brown;
+}
+
+.silver {
+    color: silver;
+}
+
+.gold {
+    color: gold;
+}
