@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     background: #222;
     color: #999;
+    font-family: 'Fondamento', cursive;
 }
 
 .achievement-list {
@@ -31,6 +32,7 @@ body {
 }
 
 .quantities {
+    font-style: italic;
     color: #666666;
 }
 
@@ -39,13 +41,13 @@ h2 {
 }
 
 .bronze {
-    color: brown;
+    color: #795548;
 }
 
 .silver {
-    color: silver;
+    color: #ECEFF1;
 }
 
 .gold {
-    color: gold;
+    color: #FFCA28;
 }
